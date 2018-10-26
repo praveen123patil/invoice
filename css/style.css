@@ -1,0 +1,59 @@
+.jumbosize{
+	height: 20pt;
+}
+.jumbosize h1{
+	padding-bottom: 200px;
+}
+.fonts{
+	font-weight: bold;
+}
+.fonts span {
+	font-weight: bold;
+	padding-left: 10px;
+}
+.alignment{
+	margin-left: 200px;
+}
+.hidden{
+	display:none;
+}
+
+body
+{
+    margin: 0;
+}
+
+table
+{
+    border-collapse: separate;
+}
+
+.auto-index td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content: "Serial is: " counter(Serial); /* Display the counter */
+}
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    //background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navfont{
+	font-size:35px;
+}
